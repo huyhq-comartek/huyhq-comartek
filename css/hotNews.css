@@ -42,6 +42,10 @@
     transition: 1s;
 }
 
+.hot-news-child:not(:hover) .first-pic {
+    transition: 1s;
+}
+
 .hot-news-child .second-pic {
     position: absolute;
     width: 100%;
