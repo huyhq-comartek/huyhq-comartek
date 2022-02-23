@@ -1,0 +1,41 @@
+.video-block {
+    width: 100%;
+    height: 364px;
+    background: #EDEDED59;
+    padding: 39px 140px 38px 139px;
+}
+
+.video-block .news-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-block .news-list .news-item {
+    width: 270px;
+    height: auto;
+}
+
+.video-block .news-list .news-item img {
+    width: 100%;
+    height: 170px;
+}
+
+.video-block .news-list .news-item a {
+    display: block;
+}
+
+.video-block .news-list .news-item a article .article-title {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.video-block .header-blue-dot .header .hr {
+    width: 90%;
+    margin-left: auto;
+}
+
+.video-block .header-blue-dot .header .title {
+    background-color: transparent;
+}
