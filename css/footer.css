@@ -1,18 +1,22 @@
 footer {
     width: 100%;
-    height: 280px;
+    font-family: 'Helvetica Neue, Light';
+}
+
+#footer-wrapper {
+    width: 100%;
+    background: #1F2333;
 }
 
 #footer-content {
-    width: 100%;
+    width: 1170px;
     height: 230px;
-    padding: 0 139px;
-    background: #1F2333;
     display: flex;
     justify-content: space-between;
     font-size: 13px;
     line-height: 24px;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 #about-us {
@@ -27,7 +31,6 @@ footer {
 
 #about-us span {
     display: block;
-    font-weight: 300;
 }
 
 #footer-nav {
@@ -45,10 +48,9 @@ footer {
 }
 
 #footer-nav .list .title {
-    text-transform: uppercase;
-    font-weight: 600;
+    text-transform: uppercase;    
+    font-family: 'Helvetica Neue, Bold';
     color: #fff;
-    letter-spacing: 1px;
 }
 
 #footer-nav .list .title::before {
@@ -64,18 +66,15 @@ footer {
 
 #footer-nav .list .item a{
     color: #AAABAF;
-    font-weight: 300;
 }
 
 #published-by {
-    width: 1449px;
+    width: 100%;
     height: 50px;
     background: #0090FF;
     font-size: 12px;
     color: #fff;
     line-height: 24px;
-    letter-spacing: 0.5px;
-    font-weight: 300;
     display: flex;
     justify-content: center;
     align-items: center;

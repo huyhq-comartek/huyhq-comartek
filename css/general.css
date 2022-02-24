@@ -1,14 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap');
+/* fonts */
+@font-face {
+    font-family: 'Helvetica Neue, Light';
+    src: url(../font/Helvetica/helveticaneuelight.ttf);
+}
+
+@font-face {
+    font-family: 'Helvetica Neue, Regular';
+    src: url(../font/Helvetica/helvetica-neue-regular.ttf);
+}
+
+@font-face {
+    font-family: 'Helvetica Neue, Medium';
+    src: url(../font/Helvetica/helvetica-neue-medium.ttf);
+}
+
+@font-face {
+    font-family: 'Helvetica Neue, Bold';
+    src: url(../font/Helvetica/helvetica-neue-bold.ttf);
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-body {
-    width: 1449px;
 }
 
 a {

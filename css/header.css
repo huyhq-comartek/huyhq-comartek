@@ -1,8 +1,12 @@
 header {
     width: 100%;
+}
+
+#header-content {
+    width: 1170px;
+    margin: 0 auto;
     height: 90px;
     display: flex;
-    padding: 0 139px;
     justify-content: center;
     align-items: center;
 }
@@ -13,9 +17,7 @@ header {
     height: 100%;
     display: flex;
     font-size: 14px;
-    font-family: '';
     text-transform: uppercase;
-    font-weight: 500;
     justify-content: space-between;
     color: #070707;
 }
@@ -23,6 +25,7 @@ header {
 .main-nav .nav-child {
     height: 100%;
     display: flex;
+    font-family: 'Helvetica Neue, Medium';
     align-items: center;
 }
 
@@ -47,18 +50,22 @@ header {
 
 #sub-header {
     width: 100%;
-    height: 35px;
     background: #EDEDED;
+}
+
+#sub-header-content {
+    width: 1170px;
+    margin: 0 auto;
+    height: 35px;
     display: flex;
-    padding-left: 139px;
     align-items: center;
     font-size: 11px;
 }
 
 #trending {
-    font-weight: 600;
     margin-right: 19.27px;
     color: #333333;
+    font-family: 'Helvetica Neue, Medium';
 }
 
 #trending-name {
@@ -66,12 +73,12 @@ header {
     opacity: 0.8;
     color: #666666;
     width: 77%;
+    font-family: 'Helvetica Neue, Light';
     overflow: hidden;
 }
 
 #other-trending {
     margin-left: auto;
-    margin-right: 139px;
 }
 
 #previous-trending,

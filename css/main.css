@@ -1,7 +1,7 @@
 main {
     width: 1170px;
     height: auto;
-    margin-left: 139px;
+    margin: 0 auto;
     padding-top: 30px;
     display: flex;
 }
@@ -39,10 +39,10 @@ main {
 
 .news .child .title{
     font-size: 15px;
-    font-weight: 600;
+    font-family: 'Helvetica Neue, Medium';
     line-height: 20px;
-    letter-spacing: 0.5px;
     margin-bottom: 10px;
+    color: #000;
 }
 
 .news .child .title:hover{
@@ -53,7 +53,7 @@ main {
     font-size: 14px;
     line-height: 24px;
     color: #666666;
-    letter-spacing: -0.1px;
+    font-family: 'Helvetica Neue, Light';
 }
 
 .news .child .head-topic {
@@ -61,6 +61,7 @@ main {
     top: 0;
     left: 0;
     background-color: #0AB3AF;
+    font-family: 'Helvetica Neue, Light';
     color: #fff;
     width: 70px;
     height: 25px;
@@ -71,19 +72,19 @@ main {
     font-size: 12px;
 }
 
-.all-news .child .oriental-medicine {
+.all-news .child .blue {
     background: #0080CE;
 }
 
-.all-news .child .age {
+.all-news .child .turquoise {
     background: #0AB3AF;
 }
 
-.all-news .child .mentality {
+.all-news .child .golden {
     background: #E4A211;
 }
 
-.all-news .child .beautify {
+.all-news .child .green {
     background: #32B336;
 }
 
@@ -129,7 +130,7 @@ main {
 .news-by-topic .topic-header .title{
     text-transform: uppercase;
     font-size: 20px;
-    font-weight: 500;
+    font-family: 'Helvetica Neue, Bold';
     color: #0090FF;
 }
 
@@ -143,6 +144,7 @@ main {
 .news-by-topic .topic-header .list .item{
     display: inline-block;
     margin-left: 14px;
+    font-family: 'Helvetica Neue, Regular';
     font-size: 13px;
 }
 
@@ -184,7 +186,6 @@ main {
 .news-list .news-item a article{
     width: auto;
     height: auto;
-    letter-spacing: 0.2px;
 }
 
 .news-list-2 .news-item {
@@ -198,13 +199,12 @@ main {
 .news-list-2 .news-item a article{
     width: auto;
     height: auto;
-    letter-spacing: 0.2px;
 }
 
 .news-list .news-item a article .article-title{
     color: #3c3c3c;
     font-size: 14px;
-    font-weight: 500;
+    font-family: 'Helvetica Neue, Medium';
     line-height: 22px;
 }
 
@@ -214,14 +214,12 @@ main {
 
 .news-list-2 .news-item a .article .article-title{
     color: #070707;
-    font-weight: 500;
     line-height: 20px;
     margin-bottom: 5px;
 }
 
 .news-list-2 .news-item:first-child a .article .article-title{
     color: #000;
-    font-weight: 600;
     line-height: 20px;
     margin-bottom: 10px;
 }
@@ -234,16 +232,17 @@ main {
     margin-top: auto;
     display: inline-block;
     width: auto;
-    margin-right: 10px;
+    margin-right: 5px;
     color: #9B9B9B;
     font-size: 12px;
     line-height: 24px;
+    font-family: 'Helvetica Neue, Light';
 }
 
 .news-list .news-item a article .bullet{
-    font-size: 25px;
+    font-size: 15px;
     margin-right: 5px;
-    transform: translateY(5px);
+    transform: translateY(2px);
 }
 .news-list-2 .news-item:first-child a .article .brief{
     display: inline-block;
@@ -251,7 +250,6 @@ main {
     color: #3C3C3C;
     font-size: 13px;
     line-height: 22px;
-    letter-spacing: 0.1px;
 }
 
 aside {
